@@ -7,14 +7,15 @@
     "git-pulse": "./bin/pulse.js"
   },
   "scripts": {
-    "start": "node bin/pulse.js"
+    "start": "node bin/pulse.js",
+    "test": "node --test"
   },
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.0.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "author": "NickCirv <nick@cirvgreen.com>",
   "license": "MIT",
